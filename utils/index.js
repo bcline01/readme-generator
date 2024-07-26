@@ -36,14 +36,9 @@ const questions = [
     },
     {
         type: 'list',
-        message: "What lisence would you like to use for your project?",
-        name: 'lisence',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'NONE']
-    },
-    {
-        type: 'input',
-        message: "Badges that you would like to include.",
-        name: 'badges',
+        message: "What licence would you like to use for your project?",
+        name: 'license',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'NONE']
     },
     {
         type: 'input',
@@ -62,8 +57,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Frequently Asked Questions.",
-        name: 'questions',
+        message: "Please enter in your Github username",
+        name: 'contact',
     },
 ]
 
