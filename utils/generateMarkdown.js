@@ -16,13 +16,21 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  const licenseLinks = {
+    'MIT': 'https://opensource.org/licenses/MIT',
+    'GPL-3.0': 'https://opensource.org/licenses/GPL-3.0',
+    'Apache-2.0': 'https://opensource.org/licenses/Apache-2.0',
+  };
+
+  return licenseLinks[license] || '';
+}
+
 
 
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-// Function that returns the license section of the README
 
 function renderLicenseSection(license) {}
 
@@ -42,7 +50,7 @@ function generateMarkdown(data) {
   5. [features](#features)
   6. [Contributors](#contribute)
   7. [Test](#test)
-  8. [Contact](#contact)
+  8. [Questions](#questions)
   9. [License](#license)
 
   ## Installation
@@ -59,21 +67,32 @@ function generateMarkdown(data) {
   ## Features
   ${data.features}
 
-  ## Contributors (Github usernames)
+  ## Contributing (Github usernames)
   ${data.contribute}
 
-  ## Test
+  ## Tests
   ${data.test}
 
 
-  ## Contact  
-  Github: https://github.com/${data.contact} 
-
+  ## Questions  
+  If you have any questions, please contact me at:
+  Github: ${data.github} 
+  Email: ${data.email}
 
   ## License
 
-  ${data.license}
-`;
+[${data.license}](${renderLicenseLink(data.license)}) license is a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+## Badge
+![${data.license}](${renderLicenseBadge(data.license)})
+
+
+`
+
+
+
+
+
 }
 //export module
 

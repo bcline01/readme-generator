@@ -38,7 +38,7 @@ const questions = [
         type: 'list',
         message: "What licence would you like to use for your project?",
         name: 'license',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'NONE']
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0']
     },
     {
         type: 'input',
@@ -57,8 +57,13 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Please enter in your Github username",
-        name: 'contact',
+        message: "Please enter in your Github username.",
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: "Please enter in Email.",
+        name: 'email',
     },
 ]
 
