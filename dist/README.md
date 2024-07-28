@@ -1,6 +1,6 @@
-# test ![MIT](https://img.shields.io/badge/license-MIT-green)
+# readme-generator ![MIT](https://img.shields.io/badge/license-MIT-green)
   ## Description
-  etst
+  a program that generates a readme
 
   ## Table of Contents
   1. [Description](#description)
@@ -14,15 +14,15 @@
   9. [Questions](#questions)
 
   ## Installation
-  test
+  install node modules and inquirer
   
 
   ## Usage
-  test
+  run node index.js to being program and answer questions
 
 
   ## Credits
-  test
+  n/a
 
 
   ## License
@@ -31,21 +31,21 @@
 
   
   ## Features
-  test
+    Simplifies the creation of professional README files
 
 
   ## Contributors
-  tests
+  n/a
 
 
   ## Tests
-  test
+  run npm run test
 
 
   ## Questions
   If you have any questions, please contact me at:
-  Github: [GitHub](https://github.com/test)
+  Github: [GitHub](https://github.com/bcline01)
 
-  Email: [Email](mailto:tests)
+  Email: [Email](mailto:brookecline.dev@gmail.com)
 
 

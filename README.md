@@ -24,7 +24,13 @@ With this README generator, you no longer need to create a professional README f
   ## Usage
   Within the directory for this project, initialize prompts using the command "node index.js".
 
+  ![run](./img/runprogram.png)
+
   From there, simply enter the necessary information for your project and a new README file will be generated and placed into the 'dist' folder.
+
+  ![questions](./img/questions.png) 
+  
+  ![create](./img/createdreadme.png)
 
   ## DemoVideo    
   **[youtube](https://youtube.com)**
