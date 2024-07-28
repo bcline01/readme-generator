@@ -18,7 +18,7 @@
   
 
   ## Usage
-  tests
+  tes
 
 
   ## Credits
@@ -40,10 +40,8 @@
   Email: test
 
   ## License
-
-[MIT](https://opensource.org/licenses/MIT) license is a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+[GPL 3.0](https://opensource.org/licenses/GPL-3.0) 
 
 ## Badge
-![MIT](https://img.shields.io/badge/license-MIT-green)
-
+![GPL 3.0]()
 
