@@ -55,8 +55,8 @@ function generateMarkdown(data) {
   4. [Credits](#credits)
   5. [License](#license)
   6. [features](#features)
-  7. [Contributors](#contribute)
-  8. [Test](#test)
+  7. [Contributors](#contributors)
+  8. [Tests](#tests)
   9. [Questions](#questions)
 
   ## Installation
@@ -79,7 +79,7 @@ function generateMarkdown(data) {
   ${data.features}
 
 
-  ## Contributing (Github usernames)
+  ## Contributors
   ${data.contribute}
 
 
@@ -89,8 +89,10 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions, please contact me at:
-  Github: ${data.github} 
-  Email: ${data.email}
+  Github: [GitHub](https://github.com/${data.github})
+
+  Email: [Email](mailto:${data.email})
+
 
 `
 }

@@ -47,7 +47,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Please list any contributors. (Github usernames)",
+        message: "Please list any contributors.",
         name: 'contribute',
     },
     {

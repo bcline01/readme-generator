@@ -1,6 +1,6 @@
-# tet ![MIT](https://img.shields.io/badge/license-MIT-green)
+# test ![MIT](https://img.shields.io/badge/license-MIT-green)
   ## Description
-  test
+  etst
 
   ## Table of Contents
   1. [Description](#description)
@@ -9,8 +9,8 @@
   4. [Credits](#credits)
   5. [License](#license)
   6. [features](#features)
-  7. [Contributors](#contribute)
-  8. [Test](#test)
+  7. [Contributors](#contributors)
+  8. [Tests](#tests)
   9. [Questions](#questions)
 
   ## Installation
@@ -34,8 +34,8 @@
   test
 
 
-  ## Contributing (Github usernames)
-  test
+  ## Contributors
+  tests
 
 
   ## Tests
@@ -44,6 +44,8 @@
 
   ## Questions
   If you have any questions, please contact me at:
-  Github: test 
-  Email: <test>
+  Github: [GitHub](https://github.com/test)
+
+  Email: [Email](mailto:tests)
+
 
